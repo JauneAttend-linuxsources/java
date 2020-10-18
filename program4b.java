@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class program4bAllarassemJonathan {
+public class program4b {
     /**
      * 
      * @param num1 the number of dots printed before the stars

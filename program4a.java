@@ -1,5 +1,5 @@
 import java.util.Random;
-public class program4aAllarassemJonathan {
+public class program4a {
 /**
  * 
  * @param arrayRef array to be printed

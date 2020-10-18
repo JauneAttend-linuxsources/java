@@ -1,6 +1,6 @@
 package project1;
 import java.util.Scanner;
-public class Program1bAllarassemJonathan {
+public class Program1b {
 
 	public static void main(String[] args) {
 		

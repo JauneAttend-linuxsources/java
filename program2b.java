@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Program2bAllarassemJonathan {
+public class Program2b {
 	
 	public static void main(String[] args) {
 		double size;
