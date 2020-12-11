@@ -7,6 +7,19 @@ public class User {
     private ArrayList<Book> BorrowedBook = new ArrayList<Book>();
 	private ArrayList<Book> BoughtBook = new ArrayList<Book>();
 	
+	public User() {
+		
+	}
+	
+	public User(String name) {
+		this.setName(name);
+	}
+	
+	public User(String name,String password) {
+		this.setName(name);
+		this.setPassword(password);
+	}
+
 	/**
 	 * 
 	 * @return name

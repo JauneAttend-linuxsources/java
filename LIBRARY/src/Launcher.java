@@ -16,26 +16,42 @@ public class Launcher {
 			lib.addBook(book);
 		}
 		
+		/*
+		 * WE ARE TESTING TO SEE IF ALL THE METHODS
+		 * ARE WORKING!!!
+		 */
 		
 		lib.printNames();
 		lib.printPrices();
 		lib.LibrarySize();
 		lib.printAvailability();
+		User user1 = new User("Jonathan");
+		User user2 = new User("Fred");
+		Receipt r = new Receipt();
 		
-		User g = new User();
-		g.setName("patrick Li");
-		Book b = new Book("Roman", 158, true);
-		ReceiptP re = new ReceiptP(b,g.getName());
-		re.generateReceipt(b, g.getName());
+		Book book0 = new Book("Otoman", 1450, true);
+		String name0 = "Jonathan";
 		
-		User ge = new User();
-		ge.setName("Lionnel Docko");
-		Book bo = new Book("Italy in 1985", 158, true);
-		re.generateReceipt(bo, ge.getName());
+		Book book1 = new Book("Roman Empire", 2000, true);
+		String name1 = "Jeremiah";
+		
+		Book book2 = new Book("Sydney City of Light", 15000, true);
+		String name2 = "Johnson";
+		
+		Book book3 = new Book("Paris today", 1000, true);
+		String name3 = "Paul Harden";
+		try {
+		r.generateReceipt(book0, name0);
+		r.generateReceipt(book1, name1);
+		r.generateReceipt(book2, name2);
+		}
+		catch(Exception e) {
+			System.out.println("Error...");
+		}
 		
 		
-		g.BuyB("rome", lib);
-		g.SearchForBook("rome", lib);
+		user1.BuyB("rome", lib);
+		user2.SearchForBook("rome", lib);
 	
 		
 		

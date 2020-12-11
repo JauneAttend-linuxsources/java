@@ -1,5 +1,4 @@
-Purchase Receipt
-Roman Empire
-$2000
+PurchaseReceiptRoman Empire
+2000
 Jeremiah
-2020-12-11T19:51:41.707
+2020-12-11T20:22:50.695
