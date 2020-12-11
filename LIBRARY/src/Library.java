@@ -1,4 +1,8 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Library {
 
@@ -33,7 +37,24 @@ public class Library {
 		this.library.add(book);
 	}
 	
-	public Integer size() {
+	public Integer LibrarySize() {
 		return this.library.size();
 	}
-} 
+	
+	public Book getBook(String name) {
+		name = name.toUpperCase();
+		for (int i = 0; i < this.LibrarySize(); i++) {
+			if(this.library.get(i).getName().equals(name.toUpperCase())){
+				return this.library.get(i);
+			}
+	}
+		return null;
+	}
+	public String getBookname(String name) {
+		return this.getBook(name).getName();
+		
+	} 
+	public void removeB(String name, Library lib) {
+		this.library.remove(lib.getBook(name));
+	}
+	}

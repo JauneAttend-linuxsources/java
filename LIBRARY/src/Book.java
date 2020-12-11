@@ -36,4 +36,8 @@ public class Book {
 		this.Available= ok;
 	}
 	
+	
+	public void printBook() {
+		System.out.println(this.getName() + " " + this.getPrice());
+	}
 }

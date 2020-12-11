@@ -1,12 +1,11 @@
 
-public class Admin {
-
-	private String name;
-	private String password;
+public class Admin extends User{
+	
 	
 	public Admin(String name, String password) {
-		this.name = name;
-		this.password = password;
+		
+		super.name = name;
+		super.password = password;
 	}
 	
 	public void addBook(Book book, Library library) {
