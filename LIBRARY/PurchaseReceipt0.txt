@@ -1,4 +1,5 @@
-PurchaseReceiptOtoman
-1450
-Jonathan
-2020-12-11T20:22:50.695
+PurchaseReceipt
+Book name: ROME
+Book price: $99
+Username: jonathan
+Date and time: 2020-12-17T00:16:37.005
